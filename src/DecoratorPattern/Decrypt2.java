@@ -1,6 +1,6 @@
 package DecoratorPattern;
 
-public class Decrypt2 extends Decorator {
+public class Decrypt2 extends DecodingDecorator {
     public Decrypt2(Text text) {
         super(text);
         System.out.println("Decryption2");
