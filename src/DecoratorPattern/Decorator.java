@@ -8,7 +8,7 @@ abstract class Decorator implements Text {
     }
 
     @Override
-    public String getDescription() {
-        return text.getDescription();
+    public String getText() {
+        return text.getText();
     }
 }

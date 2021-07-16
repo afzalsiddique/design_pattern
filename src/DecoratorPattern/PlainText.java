@@ -6,7 +6,7 @@ public class PlainText implements Text {
         this.text=text;
     }
     @Override
-    public String getDescription() {
+    public String getText() {
         return text;
     }
 }
