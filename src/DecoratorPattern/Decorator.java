@@ -1,14 +1,14 @@
 package DecoratorPattern;
 
 abstract class Decorator implements Text {
-    protected Text pizza;
+    protected Text text;
 
-    public Decorator(Text pizza) {
-        this.pizza = pizza;
+    public Decorator(Text text) {
+        this.text = text;
     }
 
     @Override
     public String getDescription() {
-        return pizza.getDescription();
+        return text.getDescription();
     }
 }
