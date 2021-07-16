@@ -7,6 +7,6 @@ public class PlainText implements Text {
     }
     @Override
     public String getDescription() {
-        return "abcd";
+        return text;
     }
 }
