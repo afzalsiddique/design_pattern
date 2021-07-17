@@ -1,5 +1,5 @@
 package DecoratorPatternEncodingDecoding;
 
-public interface InterfaceText {
+public interface Text {
     String getText();
 }

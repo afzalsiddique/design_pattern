@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPatternEncodingDecoding;
 
 public class Compressor extends Decorator {
     public Compressor(Text text) {

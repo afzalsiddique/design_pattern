@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPatternEncodingDecoding;
 
 abstract class Decorator implements Text {
     protected Text text;

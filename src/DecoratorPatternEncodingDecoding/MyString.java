@@ -1,8 +1,8 @@
 package DecoratorPatternEncodingDecoding;
 
-public class PlainText implements InterfaceText{
+public class MyString implements Text {
     String text;
-    public void setText(String text){
+    public MyString(String text){
         this.text=text;
     }
     @Override

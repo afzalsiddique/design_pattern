@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPatternEncodingDecoding;
 
 public class Decompressor extends Decorator {
     public Decompressor(Text text) {

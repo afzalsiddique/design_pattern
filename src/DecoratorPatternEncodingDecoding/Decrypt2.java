@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPatternEncodingDecoding;
 
 public class Decrypt2 extends Decorator {
     public Decrypt2(Text text) {
